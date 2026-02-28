@@ -1,0 +1,121 @@
+{
+  "name": "cits-themes",
+  "displayName": "CITS Themes",
+  "description": "A curated collection of VS Code themes.",
+  "version": "1.0.0",
+  "publisher": "AxelOllivier",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cyberpunk",
+    "ghost in the shell",
+    "neon",
+    "anime"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CITS: Code in the Shell",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-in-the-shell-color-theme.json"
+      },
+      {
+        "label": "CITS: Code in the Shell — Day",
+        "uiTheme": "vs",
+        "path": "./themes/code-in-the-shell-light-color-theme.json"
+      },
+      {
+        "label": "CITS: Hannah Codeana",
+        "uiTheme": "vs",
+        "path": "./themes/hannah-montana-color-theme.json"
+      },
+      {
+        "label": "CITS: Codenonoké",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ghibli-night-color-theme.json"
+      },
+      {
+        "label": "CITS: Code Runner",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blade-runner-color-theme.json"
+      },
+      {
+        "label": "CITS: Code Out of Space",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-out-of-space-color-theme.json"
+      },
+      {
+        "label": "CITS: OLED",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oled-color-theme.json"
+      },
+      {
+        "label": "CITS: Chihiro's Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ghibli-chihiro-color-theme.json"
+      },
+      {
+        "label": "CITS: Toxic Avencode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/toxic-avenger-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[CITS: Code in the Shell]": {
+        "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
+        "editor.fontSize": 14,
+        "editor.fontLigatures": false,
+        "editor.lineHeight": 24,
+        "editor.letterSpacing": 0.5,
+        "editor.cursorStyle": "underline",
+        "editor.cursorWidth": 2,
+        "editor.cursorBlinking": "phase",
+        "editor.renderLineHighlight": "all",
+        "editor.smoothScrolling": true,
+        "editor.minimap.renderCharacters": false,
+        "editor.guides.bracketPairs": "active",
+        "editor.bracketPairColorization.enabled": true,
+        "terminal.integrated.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
+        "terminal.integrated.fontSize": 14,
+        "terminal.integrated.lineHeight": 1.5,
+        "terminal.integrated.cursorStyle": "underline",
+        "terminal.integrated.cursorBlinking": true,
+        "workbench.list.smoothScrolling": true,
+        "workbench.tree.renderIndentGuides": "always"
+      },
+      "[CITS: Code in the Shell — Day]": {
+        "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
+        "editor.fontSize": 14,
+        "editor.fontLigatures": false,
+        "editor.lineHeight": 24,
+        "editor.letterSpacing": 0.5,
+        "editor.cursorStyle": "underline",
+        "editor.cursorWidth": 2,
+        "editor.cursorBlinking": "phase",
+        "editor.renderLineHighlight": "all",
+        "editor.smoothScrolling": true,
+        "editor.minimap.renderCharacters": false,
+        "editor.guides.bracketPairs": "active",
+        "editor.bracketPairColorization.enabled": true,
+        "terminal.integrated.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
+        "terminal.integrated.fontSize": 14,
+        "terminal.integrated.lineHeight": 1.5,
+        "terminal.integrated.cursorStyle": "underline",
+        "terminal.integrated.cursorBlinking": true,
+        "workbench.list.smoothScrolling": true,
+        "workbench.tree.renderIndentGuides": "always"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aollivier/code-in-the-shell"
+  },
+  "license": "MIT"
+}
