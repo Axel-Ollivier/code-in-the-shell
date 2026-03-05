@@ -2,7 +2,7 @@
   "name": "cits-themes",
   "displayName": "CITS Themes",
   "description": "A curated collection of VS Code color themes inspired by cinema, anime, and cult films — Ghost in the Shell, Princess Mononoke, Blade Runner, Spirited Away, Studio Ghibli, Star Wars.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "AxelOllivier",
   "engines": {
     "vscode": "^1.85.0"
@@ -37,37 +37,46 @@
     "color out of space",
     "oled",
     "dark theme",
-    "retro"
+    "retro",
+    "dune",
+    "arrakis",
+    "cowboy bebop",
+    "bebop",
+    "annihilation",
+    "arrival",
+    "her",
+    "villeneuve",
+    "jazz"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "CITS: Code in the Shell",
+        "label": "CITS: Ghost in the Shell",
         "uiTheme": "vs-dark",
         "path": "./themes/code-in-the-shell-color-theme.json"
       },
       {
-        "label": "CITS: Code in the Shell — Day",
+        "label": "CITS: Ghost in the Shell — Day",
         "uiTheme": "vs",
         "path": "./themes/code-in-the-shell-light-color-theme.json"
       },
       {
-        "label": "CITS: Hannah Codeana",
+        "label": "CITS: Hannah Montana",
         "uiTheme": "vs",
         "path": "./themes/hannah-montana-color-theme.json"
       },
       {
-        "label": "CITS: Codenonoké",
+        "label": "CITS: Princess Mononoke",
         "uiTheme": "vs-dark",
         "path": "./themes/ghibli-night-color-theme.json"
       },
       {
-        "label": "CITS: Code Runner",
+        "label": "CITS: Blade Runner",
         "uiTheme": "vs-dark",
         "path": "./themes/blade-runner-color-theme.json"
       },
       {
-        "label": "CITS: Code Out of Space",
+        "label": "CITS: The Colour Out of Space",
         "uiTheme": "vs-dark",
         "path": "./themes/color-out-of-space-color-theme.json"
       },
@@ -77,23 +86,48 @@
         "path": "./themes/oled-color-theme.json"
       },
       {
-        "label": "CITS: Chihiro's Code",
+        "label": "CITS: Spirited Away",
         "uiTheme": "vs-dark",
         "path": "./themes/ghibli-chihiro-color-theme.json"
       },
       {
-        "label": "CITS: Toxic Avencode",
+        "label": "CITS: The Toxic Avenger",
         "uiTheme": "vs-dark",
         "path": "./themes/toxic-avenger-color-theme.json"
       },
       {
-        "label": "CITS: The Empire Codes Back",
+        "label": "CITS: The Empire Strikes Back",
         "uiTheme": "vs-dark",
         "path": "./themes/empire-color-theme.json"
+      },
+      {
+        "label": "CITS: Dune",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-color-theme.json"
+      },
+      {
+        "label": "CITS: Cowboy Bebop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cowboy-bebop-color-theme.json"
+      },
+      {
+        "label": "CITS: Annihilation",
+        "uiTheme": "vs-dark",
+        "path": "./themes/annihilation-color-theme.json"
+      },
+      {
+        "label": "CITS: Arrival",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arrival-color-theme.json"
+      },
+      {
+        "label": "CITS: Her",
+        "uiTheme": "vs",
+        "path": "./themes/her-color-theme.json"
       }
     ],
     "configurationDefaults": {
-      "[CITS: Code in the Shell]": {
+      "[CITS: Ghost in the Shell]": {
         "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": false,
@@ -115,7 +149,7 @@
         "workbench.list.smoothScrolling": true,
         "workbench.tree.renderIndentGuides": "always"
       },
-      "[CITS: Code in the Shell — Day]": {
+      "[CITS: Ghost in the Shell — Day]": {
         "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": false,
@@ -137,7 +171,7 @@
         "workbench.list.smoothScrolling": true,
         "workbench.tree.renderIndentGuides": "always"
       },
-      "[CITS: The Empire Codes Back]": {
+      "[CITS: The Empire Strikes Back]": {
         "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": false,
