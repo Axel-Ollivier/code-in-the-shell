@@ -154,9 +154,9 @@
 
     // ─── Diff Editor ────────────────────────────────────────────────────────────
     "diffEditor.insertedTextBackground":      "#50e0180e",
-    "diffEditor.insertedTextBorder":          "#50e01838",
+    "diffEditor.insertedTextBorder":          "#00000000",
     "diffEditor.removedTextBackground":       "#ff20100e",
-    "diffEditor.removedTextBorder":           "#ff201038",
+    "diffEditor.removedTextBorder":           "#00000000",
     "diffEditor.insertedLineBackground":      "#50e0180a",
     "diffEditor.removedLineBackground":       "#ff20100a",
     "diffEditorGutter.insertedLineBackground": "#50e01814",
