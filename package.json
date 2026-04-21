@@ -2,7 +2,7 @@
   "name": "cits-themes",
   "displayName": "CITS Themes",
   "description": "A curated collection of VS Code color themes inspired by cinema, anime, and cult films — Ghost in the Shell, Princess Mononoke, Blade Runner, Spirited Away, Studio Ghibli, Star Wars.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "AxelOllivier",
   "engines": {
     "vscode": "^1.85.0"
